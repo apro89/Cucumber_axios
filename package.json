@@ -1,0 +1,16 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "description": "Cucumber plu axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/ -r integration/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+     "axios": "^0.19.0",
+     "cucumber": "^6.0.7",
+     "jest": "^24.8.0"
+  }
+}
